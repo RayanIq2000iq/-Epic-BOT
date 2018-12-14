@@ -15,7 +15,7 @@ client.on('guildMemberAdd', member=> {
 
 
 
-const developers = ["509243410234867724"]
+const developers = ["480286291372670996"]
 const adminprefix = "$";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
